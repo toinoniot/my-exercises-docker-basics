@@ -1,0 +1,4 @@
+docker build -t react-frontend -f Dockerfile.frontend ..
+docker build -t goback -f Dockerfile.backend ..
+docker run -d -p 127.0.0.1:8080:8080 goback
+docker run -p 127.0.0.1:5001:5001 react-frontend
