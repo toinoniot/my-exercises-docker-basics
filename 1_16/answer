@@ -1,0 +1,5 @@
+https://goback-latest.onrender.com/ping
+- I have pushed to docker hub the go backend example
+- Then created a webservice on render.com, based on the image (it's called "goback")
+I'm not sure you'll be able to access it, since there's an auto spin down in case of inactivity for free tiers
+Thanks for this mooc ! :)
